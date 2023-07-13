@@ -1,0 +1,101 @@
+
+.navbar{
+  display: flex;
+}
+.nav__ul{
+  min-width: 283px;
+  min-height: 15px;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 500px;
+}
+.nav__li{
+font-size: 12px;
+letter-spacing: 0.92px;
+line-height: 15px;
+text-transform: uppercase;
+font-family: "Barlow";
+color: #83888f;
+text-align: left;
+transition: 0.3s ease;
+}
+.nav__li:hover{
+  cursor: pointer;
+  color: black;
+  font-size:16px;
+}
+
+
+.bg{
+
+  background-image: url(../img/bg.png);
+  background-repeat: no-repeat;
+  padding-bottom: 132px;
+  
+}
+
+.bg__div{
+  display: block;
+}
+
+.about-us {
+  font-size: 72px;
+  line-height: 72px;
+  font-weight: 900;
+  font-family: "Fraunces 9pt";
+  color: #fefcf7;
+  text-align: left;
+  margin-left: 85px;
+  padding-top: 70px;
+  }
+
+  .coffeeroasters-began {
+  
+    margin-left: 85px;
+    margin-bottom: 71px;
+  	font-size: 16px;
+  	line-height: 26px;
+  	font-family: "Barlow";
+  	color: #fefcf7;
+  	text-align: left;
+  	display: inline-block;
+  	width: 445px;
+}
+
+
+.btn{
+border-radius: 6px;
+background-color: #66d2cf;
+width: 250px;
+height: 56px;
+margin-left: 85px;
+margin-bottom: 137px;
+font-family: "Fraunces 9pt";
+display: block;
+
+}
+
+.btn:hover{
+  cursor: pointer;
+}
+
+.gran__ul{
+  width: 1100px;
+  margin: 0 auto;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+.gran__li{
+  width: 200px;
+  text-align: center;
+}
+
+.gran__title{
+  font-size: 24px;
+line-height: 32px;
+font-weight: 900;
+font-family: 'Fraunces 9pt';
+color: #333d4b;
+}
